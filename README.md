@@ -1,21 +1,24 @@
-# Soroban Project
+# Mobile Apps
 
-## Project Structure
+## Project Description
+This smart contract enables basic operations for registering, installing, and viewing mobile applications on a decentralized platform. Designed using Soroban SDK, the contract simulates a mobile app store where users can list and manage their applications on-chain.
 
-This repository uses the recommended structure for a Soroban project:
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
-```
+## Project Vision
+To create a decentralized mobile app registry where developers can publish apps and users can interact with them transparently. This is an early step toward a dApp marketplace built on blockchain technology.
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
+## Key Features
+- 📱 **App Registration:** Developers can register their apps with a name and description.
+- ✅ **App Installation Tracking:** Track whether an app is installed or not.
+- 🔍 **App Retrieval:** Users can view app details using a unique ID.
+- 🔢 **App Count:** Retrieve total number of registered apps.
+
+## Future Scope
+- ✨ User-specific installation tracking
+- 🗃️ Categories and tags for apps
+- ⭐ App rating and review system
+- 🔐 Access control for app management
+- 📦 In-app purchase simulation
+
+## Contract Details
+CCO57I7FBCEHQN3HJR547SYX6ZDFUF5E7I2ZKMKWK5O6BKTA5JCAH2B2
+![alt text](image.png)
